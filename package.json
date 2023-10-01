@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "rollup-side-effectful-imports-order-broken-demo",
+  "version": "0.1.0",
+  "license": "CC0-1.0",
+  "scripts": {
+    "vite:dev": "./node_modules/.bin/vite",
+    "rollup:build": "./node_modules/.bin/rollup -c",
+    "vite:build": "./node_modules/.bin/vite build",
+    "rollup:check": "npm run rollup:build && ./node_modules/.bin/tsx src/check.ts"
+  },
+  "devDependencies": {
+    "rollup": "3.29.4",
+    "tsx": "3.13.0",
+    "typescript": "5.2.2",
+    "vite": "4.4.9",
+    "zx": "7.2.3"
+  }
+}

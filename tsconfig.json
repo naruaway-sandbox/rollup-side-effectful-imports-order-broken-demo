@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "isolatedModules": true,
+    "outDir": "./dist",
+    "lib": ["esnext", "dom"],
+    "jsx": "preserve",
+    "types": ["node"],
+    "module": "nodenext",
+    "target": "esnext",
+    "esModuleInterop": true,
+    "noEmit": true,
+    "verbatimModuleSyntax": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "checkJs": true
+    //"skipLibCheck": true
+  },
+  "include": ["./src/**/*"]
+}
